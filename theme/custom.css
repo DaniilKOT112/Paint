@@ -1,0 +1,44 @@
+QPushButton {{
+font-family: 'Robotic';
+font: bold 17px;
+border-width: 2px;
+border-radius: 3px;
+color: {QTMATERIAL_SECONDARYCOLOR};
+text-transform: none;
+background-color: {QTMATERIAL_PRIMARYCOLOR};
+}}
+
+QLabel {{
+font-family: 'Robotic';
+font: bold 16px;
+}}
+
+QPushButton:pressed {{
+    color: #94946c;
+    border-color: #999950;
+    outline: none;
+}}
+
+QSlider::groove:horizontal {{
+    border: 2px solid #545434;
+    border-radius: 3px;
+    height: 1px;
+    background: #545434;
+    margin: 2px;
+}}
+
+QSlider::handle:horizontal {{
+    background: #545434;
+    border: 2px solid #545434;
+    width: 18px;
+    margin: -10px 5;
+    border-radius: 10px;
+}}
+
+QMenu::item {{
+    background-color: #545434;
+}}
+
+QMenu::item:selected {{
+    background-color: #afaf4f;
+}}
